@@ -1,0 +1,117 @@
+{
+  "width": 40,
+  "height": 40,
+  "components": [
+    {
+      "resource": "scenery/pond-4x4",
+      "position": {
+        "x": 15,
+        "y": 20
+      }
+    },
+    {
+      "resource": "scenery/grass-4x4",
+      "position": {
+        "x": 10,
+        "y": 15
+      }
+    },
+    {
+      "definition": {
+        "type": "SINGLE_TILE",
+        "width": 4,
+        "height": 4,
+        "tiles": [{ "resource": "tiles/grass" }]
+      },
+      "position": {
+        "x": 25,
+        "y": 30
+      }
+    }
+  ],
+  "tiles": [
+    {
+      "resource": "tiles/grass",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "movement": {
+        "isWalkable": true,
+        "isSurfable": false,
+        "isFlyable": true
+      },
+      "events": [
+        {
+          "name": "SPAWN_POKEMON",
+          "pokemon": [
+            {
+              "id": 1,
+              "weight": 10,
+              "levels": [2, 3, 4]
+            },
+            {
+              "id": 2,
+              "weight": 15,
+              "levels": [2, 3]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "definition": {
+        "type": "SINGLE_COLOR",
+        "color": "grass-green",
+        "textures": [
+          {
+            "type": "CHECKERED",
+            "color": "black"
+          }
+        ]
+      },
+      "position": {
+        "x": 2,
+        "y": 2
+      }
+    },
+    {
+      "definition": {
+        "type": "SINGLE_COLOR",
+        "color": "grass-green",
+        "textures": [
+          {
+            "type": "BORDERED",
+            "color": "white",
+            "width": 1
+          }
+        ]
+      },
+      "position": {
+        "x": 4,
+        "y": 4
+      }
+    },
+    {
+      "definition": {
+        "type": "SINGLE_COLOR",
+        "color": "grass-green",
+        "textures": [
+          {
+            "type": "CHECKERED",
+            "color": "yellow"
+          },
+          {
+            "type": "BORDERED",
+            "color": "white",
+            "width": 1
+          }
+        ]
+      },
+      "position": {
+        "x": 6,
+        "y": 4
+      }
+    }
+  ]
+}

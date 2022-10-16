@@ -1,0 +1,32 @@
+{
+  "height": 40,
+  "width": 40,
+  "backgroundColor": "black",
+  "assets": [
+    {
+      "name": "buildings/example-building",
+      "xPosition": 1,
+      "yPosition": 0
+    },
+    {
+      "xPosition": 0,
+      "yPosition": 0,
+      "width": 1,
+      "height": 5,
+      "type": "SINGLE_TILE",
+      "parameters": {
+        "name": "tiles/grass"
+      }
+    },
+    {
+      "xPosition": 6,
+      "yPosition": 0,
+      "width": 10,
+      "height": 5,
+      "type": "SINGLE_TILE",
+      "parameters": {
+        "name": "tiles/grass"
+      }
+    }
+  ]
+}

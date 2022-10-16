@@ -1,0 +1,25 @@
+{
+  "height": 1,
+  "width": 5,
+  "backgroundColor": "black",
+  "tiles": [
+    {
+      "xPosition": 0,
+      "yPosition": 0,
+      "width": 5,
+      "height": 1,
+      "type": "solid-color",
+      "parameters": {
+        "color": "white"
+      },
+      "textures": [
+        {
+          "name": "CHECKERED",
+          "parameters": {
+            "color": "black"
+          }
+        }
+      ]
+    }
+  ]
+}
